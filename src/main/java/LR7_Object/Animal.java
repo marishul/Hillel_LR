@@ -1,3 +1,5 @@
+package LR7_Object;
+
 public class Animal {
 
     String type = "";
@@ -40,7 +42,7 @@ public class Animal {
 
     @Override //override the method of Object class
     public String toString() {
-        return "I am Animal";
+        return "I am LR7_Object.Animal";
     }
 
     public void say() {

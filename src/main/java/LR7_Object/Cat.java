@@ -1,6 +1,8 @@
+package LR7_Object;
+
 public class Cat extends Animal {
 
-    Cat(String type, String name, int age) {
+    public Cat(String type, String name, int age) {
         super(type, name, age);
     }
 
